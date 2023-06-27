@@ -1,0 +1,20 @@
+{
+  "profiles": {
+    "capiprofile": {
+      "hostname": "dev01.mysandbox.demandware.net",
+      "client_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+      "client_secret": "client-secret",
+      "polling_interval": 30
+    },
+    "bmprofile": {
+      "hostname": "dev02.anotherbox.demandware.net",
+      "username": "me@company.com",
+      "password": "my_really_secret_password",
+      "polling_interval": 30
+    }
+  },
+  "interactive": true,
+  "fluent": {
+    "enabled": false
+  }
+}
